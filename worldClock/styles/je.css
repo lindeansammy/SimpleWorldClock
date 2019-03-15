@@ -1,0 +1,250 @@
+
+/* CSS Document */
+/*
+   JavaScript Assignment 01
+   Developed By: 
+   Developed Date:  June 2018
+   Filename: je.css
+   This file contains styles used in the worldTime.html file.
+*/
+
+
+html,body,form {
+    margin: 0;
+    padding: 0;    
+}
+
+
+body {
+    font-family: arial,sans-serif;
+	background-color: white; 
+	margin: 5px;
+}
+
+#headzone {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+
+#headbar {
+    padding-top: 20px;
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+#timemap {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+#map {
+    opacity:.8;
+}
+
+
+#place1,#place2,#place3,#place4,#place5,#place6 {
+    position: absolute;
+    width: 60px;
+    border-radius: 6px;
+    opacity: .7;
+}
+
+
+#place1 {
+    /* Seattle */
+    position: absolute;
+    left: 40px;
+    top: 190px;
+}
+
+
+#place2 {
+    /* Houston */
+    left: 110px;
+    top: 215px;
+}
+
+
+#place3 {
+    /* New York */
+    left: 170px;
+    top: 200px;
+}
+
+
+#place4 {
+    /* London */
+    left: 300px;
+    top: 176px;    
+}
+
+
+#place5 {
+    /* Tokyo */
+    left:554px;
+    top: 216px;    
+}
+
+
+#place6 {
+    /* Sydney */
+    left: 570px;
+    top: 340px;    
+}
+
+
+#locations, #offices {
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+#offices {   
+    padding-top:4px;
+    padding-bottom: 10px;
+}
+
+
+table {
+    width: 674px;
+    margin:0;
+    border-spacing: 10px;
+    font-size: 84%;
+    padding: 0;
+    border: 0 white dotted;
+}
+
+
+td,th {
+    background: rgba(255,255,255,.7);
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+#footer {
+    font-size:80%;
+}
+
+
+
+
+#headbar {
+	width: 660px;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif; 
+	text-align: center;
+	letter-spacing: 4px; 
+	color: blue; 
+	margin: 0;
+}
+
+#timemap {
+	position: relative; 
+	top: 0; 
+	left: 0; 
+	width: 655px; 
+}
+
+table {
+	width: 100%; 
+	margin-top: 0; 
+	border-top: 0;
+}
+
+th {
+	border: 1px solid black; 
+	font-weight: normal; 
+	font-family: monospace;
+}
+
+td {
+	font-size: 10pt; 
+	width: 33%; 
+	vertical-align: top; 
+	padding: 5px; 
+	border: 1px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+	font-size: 9pt; 
+	font-family: monospace; 
+	border: 1px solid black;
+}
+
+#place1 {
+	position: absolute; 
+	top: 190px; 
+	left: 125px;
+}
+
+#place1, #name1, #address1 {
+	background-color: #E7E7E7; /* rgb(231,231,231)*/
+}
+
+#place2 {
+	position: absolute; 
+	top: 130px; 
+	left: 305px;
+}
+
+#place2, #name2, #address2 {
+	background-color: #ffffff;
+}
+
+#place3 {
+	position: absolute; 
+	top: 160px; 
+	left: 175px;
+}
+
+#place3, #name3, #address3 {
+	background-color: #FFFFCC; /* rgb(255,255,204)*/
+}
+
+#place4 {
+	position: absolute; 
+	top: 175px; 
+	left: 45px;
+}
+
+#place4, #name4, #address4 {
+	background-color: #99FFFF; /* rgb(153,255,255)*/
+}
+
+#place5 {
+	position: absolute; 
+	top: 300px; 
+	left: 575px;
+}
+
+#place5, #name5, #address5 {
+	background-color: #FFC0CB; /*pink*/
+}
+
+#place6 {
+	position: absolute; 
+	top: 170px; 
+	left: 555px;
+}
+
+#place6, #name6, #address6 {
+	background-color: #CCCC99; /* rgb(204,204,153)*/
+}
+
+#centerAlign {
+	margin-left:auto;
+	margin-right: auto;
+}
+	

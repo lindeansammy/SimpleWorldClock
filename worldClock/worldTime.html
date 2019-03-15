@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />    
+    <title>Vincent World Clock</title>
+    <!--Link to the external CSS named je.css document -->
+    <link href="styles/je.css" rel="stylesheet" type="text/css" />
+    <!--Link to the external script named timezones.js document -->
+    <script type="text/javascript" src="scripts/timeZones.js"></script>
+
+    <!--
+        JavaScript Assignment 01
+        Vincent World Clock
+        Developed By:  
+        Developed Date: June 2018
+        Filename:       worldTime.html
+        Supporting files: je.css, logo.mpg, map.jpg, timeZones.js
+    -->
+
+</head>
+
+<body onload="startTime();" title="To see some cool stuff, hover over times, offices or addresses.">
+
+        <form id="zonesform" name="zonesForm" action="#">
+
+    <div id="headzone">
+        <div id="headbar">
+            <img src="images/logo.gif" alt="Jackson Electronics" />
+        </div>
+    </div>
+
+    <div id="timemap">
+        <h2>Corporate Headquarters World Clock</h2>
+
+        <div id="world-map">
+            <img src="images/map.jpg" alt="World Map" id="map" width="655" height="371" />
+        </div>
+
+        <input id="place1" name="place1" size="7"
+               onmouseover=on(this);
+               onmouseout=off(this); />
+        <input id="place2" name="place2" size="7"
+               onmouseover=on(this);
+               onmouseout=off(this); />
+        <input id="place3" name="place3" size="7"
+               onmouseover=on(this);
+               onmouseout=off(this); />
+        <input id="place4" name="place4" size="7"
+               onmouseover=on(this);
+               onmouseout=off(this); />
+        <input id="place5" name="place5" size="7"
+               onmouseover=on(this);
+               onmouseout=off(this); />
+        <input id="place6" name="place6" size="7"
+               onmouseover=on(this);
+               onmouseout=off(this); />
+    </div>
+
+    <div id="offices">
+        <table>
+            <tr>
+                <th id="name1"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>Seattle</th>
+                <th id="name2"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>Houston</th>
+                <th id="name3"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>New York</th>
+                <th id="name4"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>London</th>
+                <th id="name5"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>Tokyo</th>
+                <th id="name6"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>Sydney</th>
+            </tr>
+        </table>
+    </div>
+
+    <div id="locations">
+        <table>
+            <tr>
+                <td id="address3"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>
+                    <p>
+                        <b>Vincent USA</b>
+                        <br />10010 Park Street
+                        <br />New York NY 10001
+                        <br /><b>Phone: </b>(212) 555-1209
+                        <br /><b>Fax: </b>(212) 555-4001
+                    </p>
+                </td>
+
+                <td id="address1"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>
+                    <p>
+                        <b>Jackson Electronics Ltd.</b>
+                        <br />2349 Mitchell Street
+                        <br />Seattle, WA 65091
+                        <br /><b>Phone: </b>(381) 555-5499
+                        <br /><b>Fax: </b>(381) 555-3181
+                    </p>
+                </td>
+
+                <td id="address2"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>
+                    <p>
+                        <b>Vincent Latin America</b>
+                        <br />5150 Shasta Lane
+                        <br />Houston, TX 32821
+                        <br /><b>Phone: </b>(817) 555-8190
+                        <br /><b>Fax: </b>(817) 555-2881
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td id="address4"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>
+                    <p>
+                        <b>Vincent Europe</b>
+                        <br />18 Northland Avenue
+                        <br />London, England WC2N 5EA
+                        <br /><b>Phone: </b>(+44) 0 870 555 7081
+                        <br /><b>Fax: </b>(+44) 0 870 555 1788
+                    </p>
+                </td>
+
+                <td id="address6"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>
+                    <p>
+                        <b>Vincent Pacifica</b>
+                        <br />171-105 Thomas Street
+                        <br />Sydney NSW 2000, Australia
+                        <br /><b>Phone: </b>(+61) 2 5555 8993
+                        <br /><b>Fax: </b>(+61) 2 5555 7171
+                    </p>
+                </td>
+
+                <td id="address5"
+                    onmouseover=on(this);
+                    onmouseout=off(this);>
+                    <p>
+                        <b>Vincent Asia</b>
+                        <br />1-2-99 Sumiyoshi
+                        <br />Hakata-Ku
+                        <br />Tokyo 140-8781 Japan
+                        <br /><b>Phone: </b>(+81) 3 5551 7817
+                        <br /><b>Fax: </b>(+81) 3 5551 2398
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p id="footer">
+            January 22<sup>nd</sup>, 2015
+        </p>
+        <br><br>
+    </footer>
+
+    </form>
+</body>
+</html>
